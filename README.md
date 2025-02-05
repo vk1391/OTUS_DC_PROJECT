@@ -299,7 +299,7 @@ router bgp 104
 end
 ```
 2. Подготовка сервера
-- взят образ ubuntu strver 22.04
+- взят образ ubuntu server 22.04
 - сделаны следующие шаги:
   - rmmod floppy
   - echo 'blacklist floppy' >> /etc/modprobe.d/blacklist.conf
